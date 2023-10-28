@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playpen+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nosifer&family=Playpen+Sans:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -23,11 +23,11 @@ header{
 }
 header.sticky{
     padding: 30px 100px;
-    background-color: white;
+    background-color: #CEC89F;
 }
 header .logo{
     position: relative;
-    color: #fff;
+    color: #CEC89F;
     text-decoration: none;
     font-size: 2em;
     letter-spacing: 2px;
@@ -47,9 +47,9 @@ header ul li a{
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #fff;
+    color: #CEC89F;
     letter-spacing: 2px;
-    font-weight: 500px;
+    font-weight: 700px;
     transition: 0.5s;
     padding-left: 20px; 
     padding-right: 20px; 
@@ -58,7 +58,6 @@ header ul li a{
     position: relative;
     width: 70%;
     height:1vh;
-    background: url(static/logo2.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -69,7 +68,7 @@ header.sticky ul li a{
 }
 .fixedlogo p a{
     position: relative;
-    color: #fff;
+    color: #CEC89F;
     text-decoration: none;
     font-size: 2em;
     letter-spacing: 2px;
@@ -77,4 +76,24 @@ header.sticky ul li a{
     font-family: 'caveat', cursive;
     padding-left: 5%;
     text-decoration: none;
+}
+.center p{
+    color: #CEC89F;
+    font-family: nosifer;
+    align-items: center;
+    font-size: 70px;
+    /* padding: 4% 0% 0% 5%; */
+}
+.center .line1{
+    position: relative;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.center .line2{
+    position: relative;
+    padding-left: 12%;
+}
+.center .line3{
+    position: relative;
+    padding-left: 25%;
 }
