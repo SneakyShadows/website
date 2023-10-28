@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nosifer&family=Playpen+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nosifer&family=Playpen+Sans:wght@300&family=Indie+Flower&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 body{
     background-color: black;
-    min-height: 200vh; 
+    /* min-height: 200vh;  */
 }
 header{
     position: fixed;
@@ -96,4 +95,35 @@ header.sticky ul li a{
 .center .line3{
     position: relative;
     padding-left: 25%;
+}
+.about{
+    padding: 150px;
+}
+.about a{
+    position: relative;
+    /* padding: 5% 0% 0% 5%; */
+    color: #CEC89F;
+    font-family:caveat, cursive;
+    font-size: 4em;
+}
+.about p{
+    font-family: indie flower, cursive;
+    color: #CEC89F;
+    padding: 2em 0 0 0;
+    font-size: 2em;
+    align-items: left;
+}
+.about img{
+    align-items: right;
+    size: 200px;
+}
+footer{
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    background-color: #CEC89F;
+}
+footer p{
+    align-items: center;
+    color: #000;
+    font-family: playpen sans;
 }
