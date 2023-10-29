@@ -127,3 +127,22 @@ footer p{
     color: #000;
     font-family: playpen sans;
 }
+
+.community{
+    padding-left: 150px;
+    padding-top:60px;
+}
+.community a{
+    position: relative;
+    /* padding: 5% 0% 0% 5%; */
+    color: #CEC89F;
+    font-family:caveat, cursive;
+    font-size: 4em;
+}
+.community p{
+    font-family: indie flower, cursive;
+    color: #CEC89F;
+    padding: 1em;
+    font-size: 2em;
+    align-items: left;
+}
