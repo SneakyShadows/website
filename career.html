@@ -17,6 +17,56 @@
             <li href="/index.html#contact"><a href="/index.html#contact">Contact</a></li>
             <li href="/career.html"><a href="/career.html">Career</a></li>
         </ul>
+        <script>
+            const jobs = [
+    {
+        title:"Software Developer",
+        image:"/static/software-development.png",
+        details:"Responsible for designing, developing and maintaining software applications.",
+        openPositions:"2",
+        link:"#",
+    },
+    {
+        title:"Data Analyst",
+        image:"/static/data-scientist.png",
+        details:"Responsible for management, maintenance and analysis of data. Also include database management and server analysis.",
+        openPositions:"2",
+        link:"#",
+    },
+    {
+        title:"Python Developer",
+        image:"/static/python.png",
+        details:"Responsible for designing, developing and maintaining python programs and applications.",
+        openPositions:"2",
+        link:"#",
+    },
+    {
+        title:"Website Developer",
+        image:"/static/webDeveloper.png",
+        details:"Responsible for designing and maintaining website and web applications.",
+        openPositions:"2",
+        link:"#",
+    },
+    {
+        title:"Website Developer",
+        image:"/static/webDeveloper.png",
+        details:"Responsible for designing and maintaining website and web applications.",
+        openPositions:"2",
+        link:"#",
+    },
+    {
+        title:"Website Developer",
+        image:"/static/webDeveloper.png",
+        details:"Responsible for designing and maintaining website and web applications.",
+        openPositions:"2",
+        link:"#",
+    },
+    
+];
+const jobsHeading = document.querySelector(".jobs-list-container h2");
+
+jobsHeading.innerHTML = `${jobs.length} Jobs`;
+        </script>
     </header>
     <section class="banner"></section>
     <div class="fixedlogo">
@@ -25,7 +75,8 @@
     </div>
 
     <div class="jobs-list-container">
-        <h2 class="jobs-heading">Jobs</h2>
+        <h2>Jobs</h2>
+        <br></br>
         <div class="jobs">
         <div class="job">
             <img src="/static/software-development.png" alt="" srcset="">
