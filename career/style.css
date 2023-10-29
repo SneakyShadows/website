@@ -127,6 +127,10 @@ footer p{
     color: #000;
     font-family: playpen sans;
 }
+li:hover{
+  font-weight: bolder;
+  font-size: large;
+}
 .jobs-list-container {
   max-width: 900px;
   margin: 20px auto;
