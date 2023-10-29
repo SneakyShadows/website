@@ -22,7 +22,7 @@ header{
 }
 header.sticky{
     padding: 30px 100px;
-    background-color: #CEC89F;
+    background-color: rgba(0, 0, 0, .9);
 }
 header .logo{
     position: relative;
@@ -62,7 +62,7 @@ header ul li a{
 }
 header.sticky .logo,
 header.sticky ul li a{
-    color: #000;
+    color: #CEC89F;
     padding: 30px;
 }
 .fixedlogo p a{
