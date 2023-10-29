@@ -10,7 +10,7 @@ const jobs = [
 
   {
     title: "Data Analyst",
-    image: "images/data-scientist.svg",
+    image: "images/database.png",
     details:
       "Responsible for collecting, analyzing and interpreting large data sets to help organizations make better decisions.",
     openPositions: "3",
@@ -19,7 +19,7 @@ const jobs = [
 
   {
     title: "Project Manager",
-    image: "images/project-manager.svg",
+    image: "images/multitasking.png",
     details:
       "Responsible for planning, executing and closing projects on time and within budget.",
     openPositions: "1",
@@ -37,7 +37,7 @@ const jobs = [
 
   {
     title: "Sales Representative",
-    image: "images/sales-representative.svg",
+    image: "images/increase.png",
     details:
       "Responsible for designing, developing and maintaining websites and web applications.",
     openPositions: "4",
