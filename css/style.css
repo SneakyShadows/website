@@ -22,7 +22,7 @@ header{
 }
 header.sticky{
     padding: 30px 100px;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .8);
 }
 header .logo{
     position: relative;
@@ -78,7 +78,6 @@ header.sticky ul li a{
 }
 li:hover{
     font-weight: bolder;
-    font-size: large;
 }
 .center p{
     color: #CEC89F;
