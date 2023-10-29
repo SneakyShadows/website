@@ -87,7 +87,7 @@ const createJobListingCards = () => {
 
       let detailsBtn = document.createElement("a");
       detailsBtn.href = job.link;
-      detailsBtn.innerHTML = "More Details";
+      detailsBtn.innerHTML = "Apply Now!";
       detailsBtn.classList.add("details-btn");
 
       let openPositions = document.createElement("span");
