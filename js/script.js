@@ -1,7 +1,7 @@
 const jobs = [
     {
       title: "Software Engineer",
-      image: "images/software-engineer.svg",
+      image: "images/softwareDev.jpg",
       details:
         "Responsible for designing, developing and maintaining software systems and applications.",
       openPositions: "2",
@@ -10,7 +10,7 @@ const jobs = [
   
     {
       title: "Data Scientist",
-      image: "images/data-scientist.svg",
+      image: "images/data-scientist.png",
       details:
         "Responsible for collecting, analyzing and interpreting large data sets to help organizations make better decisions.",
       openPositions: "3",

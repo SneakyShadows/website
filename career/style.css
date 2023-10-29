@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nosifer&family=Playpen+Sans:wght@300&family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    /* min-height: 200vh;  */
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+    font-family: Playpen Sans, sans-serif;
+}
+header.sticky{
+    padding: 30px 100px;
+    background-color: #CEC89F;
+}
+header .logo{
+    position: relative;
+    color: #CEC89F;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;   
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #CEC89F;
+    letter-spacing: 2px;
+    font-weight: 700px;
+    transition: 0.5s;
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+.banner{
+    position: relative;
+    width: 70%;
+    height:1vh;
+    background-size: cover;
+    background-position: center;
+}
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+    padding: 30px;
+}
+.fixedlogo p a{
+    position: relative;
+    color: #CEC89F;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;   
+    font-family: 'caveat', cursive;
+    padding-left: 5%;
+    text-decoration: none;
+}
+.center p{
+    color: #CEC89F;
+    font-family: nosifer;
+    align-items: center;
+    font-size: 70px;
+    /* padding: 4% 0% 0% 5%; */
+}
+.center .line1{
+    position: relative;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.center .line2{
+    position: relative;
+    padding-left: 12%;
+}
+.center .line3{
+    position: relative;
+    padding-left: 25%;
+}
+.about{
+    padding: 150px;
+}
+.about a{
+    position: relative;
+    /* padding: 5% 0% 0% 5%; */
+    color: #CEC89F;
+    font-family:caveat, cursive;
+    font-size: 4em;
+}
+.about p{
+    font-family: indie flower, cursive;
+    color: #CEC89F;
+    padding: 2em 0 0 0;
+    font-size: 2em;
+    align-items: left;
+}
+.about img{
+    align-items: right;
+    size: 200px;
+}
+footer{
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    background-color: #CEC89F;
+}
+footer p{
+    align-items: center;
+    color: #000;
+    font-family: playpen sans;
+}
+.jobs-list-container {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: playpen sans, sans-serif;
+}
+
+.jobs-list-container h2 {
+  font-size: 30px;
+  border-left: 4px solid #CEC89F;
+  padding-left: 20px;
+  color: #CEC89F;
+}
+
+.jobs-list-container .jobs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.jobs-list-container .jobs img {
+  width: 60px;
+}
+
+.jobs-list-container .job {
+  box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+  padding: 24px;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 400ms ease;
+  background-color: #CEC89F;
+}
+
+.jobs-list-container .job:hover {
+  transform: scale(1.03);
+}
+
+.jobs-list-container .open-positions {
+  position: absolute;
+  top: 40px;
+  right: 24px;
+  color: #CEC89F;
+}
+
+.jobs-list-container .job-title {
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 0;
+  color: #000;
+}
+
+.jobs-list-container .details {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
+  flex: 1;
+}
+
+.jobs-list-container .details-btn {
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 400ms ease;
+}
+
+.jobs-list-container .details-btn:hover {
+  background: #000;
+  color: #CEC89F;
+}
+
+.jobs-list-container .job-search {
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: playpen sans, sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 940px) {
+  .jobs-list-container .jobs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .jobs-list-container .jobs {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
