@@ -9,7 +9,7 @@ const jobs = [
   },
 
   {
-    title: "Data Scientist",
+    title: "Data Analyst",
     image: "images/data-scientist.svg",
     details:
       "Responsible for collecting, analyzing and interpreting large data sets to help organizations make better decisions.",
@@ -27,10 +27,10 @@ const jobs = [
   },
 
   {
-    title: "Product Manager",
-    image: "images/product-manager.svg",
+    title: "Python Developer",
+    image: "images/python.png",
     details:
-      "Responsible for managing the entire product life cycle, from ideation to launch and post-launch maintenance.",
+      "Responsible for designing, developing and maintaining python programs and applications.",
     openPositions: "1",
     link: "#",
   },
@@ -39,14 +39,14 @@ const jobs = [
     title: "Sales Representative",
     image: "images/sales-representative.svg",
     details:
-      "Responsible for reaching out to potential customers and closing sales deals.",
+      "Responsible for designing, developing and maintaining websites and web applications.",
     openPositions: "4",
     link: "#",
   },
 
   {
-    title: "Marketing Manager",
-    image: "images/marketing-manager.svg",
+    title: "Web Developer",
+    image: "images/webDeveloper.png",
     details:
       "Responsible for creating and executing marketing strategies to promote a company or product.",
     openPositions: "1",
