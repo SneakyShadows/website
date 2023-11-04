@@ -134,7 +134,11 @@ footer p{
     color: #000;
     font-family: playpen sans;
 }
-
+footer p a{
+    color: #000;
+    font-family: playpen sans;
+    text-decoration: none;
+}
 .community{
     padding-left: 150px;
     padding-top:60px;
